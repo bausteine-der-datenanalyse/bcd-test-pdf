@@ -24,5 +24,5 @@ jobs:
         with:
           tinytex: true
       - name: Quarto render
-        run: quarto render test -t pdf
+        run: quarto render test.qmd -t pdf
 
